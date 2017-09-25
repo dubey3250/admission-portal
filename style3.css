@@ -1,0 +1,18 @@
+body
+{
+background-image:url('tree.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+#outer
+{
+transform:rotate(180deg);
+margin-top:300px;
+border-radius:15px 0px 15px 0px;
+height:400px;
+width:800px;
+//border:1px solid;
+background-image:url('big_bunny_fake.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}

@@ -1,0 +1,169 @@
+body
+{
+background-image:url('blue.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+#head
+{
+height:200px;
+width:1350px;
+//border:1px solid;
+}
+#headl
+{
+height:200px;
+width:200px;
+//border:1px solid;
+float:left;
+}
+#headr
+{
+background:-webkit-linear-gradient(ffffff 23%,ffcccc 77%);
+height:200px;
+width:1150px;
+//border:1px solid;
+float:right;
+}
+#headsub
+{
+background:-webkit-linear-gradient(66ff66 23%,0099ff 77%);
+margin-top:35px;
+ height:120px;
+ width:1050px;
+ //border:1px solid;
+}
+#outer
+{
+height:1200px;
+width:1350px;
+//border:1px solid;
+}
+#menu
+{
+height:75px;
+width:1350px;
+background:-webkit-linear-gradient(lightgreen 24%, green 76%);
+border-radius:10px 10px 0px 0px;
+}
+#menu ul
+{
+list-style-type:none;
+}
+#menu ul li 
+{
+//width:100px;
+display:inline-block;
+text-align:center;
+padding:15px;
+margin:10px;
+border-radius:10px 0px 10px 0px;
+background:-webkit-linear-gradient(blue 30%,purple 70%);
+box-shadow:10px 10px 5px 9966ff;
+color:white;
+}
+#menu ul a
+{
+color:white;
+text-decoration:none;
+}
+#menu ul a li:hover
+{
+ color:red;
+background:-webkit-linear-gradient(lightgreen 30%,red 70%);
+box-shadow:15px 15px 5px lightgreen;
+}
+#menu ul a li:visited
+{
+background:-webkit-linear-gradient(pink 11%,white 89%);
+}
+#main
+{
+height:909px;
+width:1350px;
+//border:1px solid green;
+}
+#center
+{
+height:909px;
+width:1000px;
+//border:1px solid green;
+float:left;
+}
+.abc
+{
+ background:-webkit-linear-gradient(ffff00 30%,00ff00 70%);
+ height:50px;
+ width:925px;
+ margin:5px;
+ border:1px solid;
+ border-radius:10px 10px 10px 10px;
+}
+#sub1center
+{
+background:-webkit-linear-gradient(lightblue 30%,lightgreen 70%);
+border-radius:10px 10px 10px 10px;
+margin-top:10px;
+height:300px;
+width:950px;
+border:1px solid;
+}
+#sub2center
+{
+background:-webkit-linear-gradient(lightblue 30%,lightgreen 70%);
+border-radius:10px 10px 10px 10px;
+margin:10px;
+height:200px;
+width:950px;
+border:1px solid;
+}
+#sub3center
+{
+background:-webkit-linear-gradient(lightblue 30%,lightgreen 70%);
+border-radius:10px 10px 10px 10px;
+margin:10px;
+height:360px;
+width:950px;
+border:1px solid;
+}
+#rside
+{
+border-radius:0px 10px 0px 10px;
+height:909px;
+width:346px;
+//border:1px solid green;
+float:right;
+}
+#sub1rside
+{
+border-radius:10px 10px 10px 10px;
+margin:10px;
+margin-right:30px;
+height:350px;
+width:300px;
+border:1px solid green;
+float:right;
+background-color:orange;
+}
+#sub2rside
+{
+background-color:orange;
+border-radius:10px 10px 10px 10px;
+margin:10px;
+margin-right:30px;
+height:200px;
+width:300px;
+border:1px solid green;
+float:right;
+}
+#sub3rside
+{
+background-color:orange;
+border-radius:10px 10px 10px 10px;
+margin:10px;
+margin-right:30px;
+height:290px;
+width:300px;
+border:1px solid green;
+float:right;
+}
